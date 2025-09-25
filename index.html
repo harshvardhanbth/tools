@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BCA Portal — Under Construction</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+      color: #fff;
+      text-align: center;
+    }
+    .box {
+      background: rgba(255, 255, 255, 0.06);
+      padding: 2rem;
+      border-radius: 16px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+      max-width: 500px;
+      width: 90%;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      color: #38bdf8;
+    }
+    p {
+      margin: 0.5rem 0;
+      color: #cbd5e1;
+    }
+    .loader {
+      margin: 1.5rem auto;
+      border: 5px solid rgba(255,255,255,0.2);
+      border-top: 5px solid #38bdf8;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1.5s linear infinite;
+    }
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 12px 24px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #0f172a;
+      background: #38bdf8;
+      border: none;
+      border-radius: 999px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #0ea5e9;
+    }
+    .footer {
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>BCA Student Portal</h1>
+    <p>This site is under construction 🚧</p>
+    <div class="loader"></div>
+    <p>We’re building something useful for all BCA students.</p>
+    <a href="https://mjkbca.online" class="btn">Go to Main Website</a>
+    <div class="footer">© 2025 BCA Portal</div>
+  </div>
+</body>
+</html>
